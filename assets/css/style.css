@@ -8,7 +8,7 @@
 
 header {
     padding: 20px 35px;
-    background-color: dimgrey;
+    background-color: #585858;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: space-between;
@@ -18,13 +18,13 @@ header {
 header h1 { 
     font-weight: bold;
     font-size: 36px;
-    color: powderblue;
+    background-color: paleturquoise;
     margin: 0;
 }
 
 header a {
     text-decoration: none;
-    color: powderblue;
+    color: #585858;
 }
 
 header nav {
@@ -43,9 +43,31 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
+    color: paleturquoise;
 }
 
 /* Hero/Jumbotron */
+
+.hero {
+    background-image: url("../images/Screen\ Shot\ 2022-06-12\ at\ 10.33.00\ PM.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+.hero-cta {
+    width: 50%;
+    margin: 10%;
+}
+
+.hero-cta h2 {
+    font-size: 25px;
+    color: #585858;
+    background-color: paleturquoise;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /* About Me Section */
 
