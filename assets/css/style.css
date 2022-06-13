@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #afeeee;
+    --secondary-color: #24282a;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +13,7 @@
 
 header {
     padding: 20px 35px;
-    background-color: #585858;
+    background-color: var(--secondary-color);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: space-between;
@@ -18,13 +23,13 @@ header {
 header h1 { 
     font-weight: bold;
     font-size: 36px;
-    background-color: paleturquoise;
+    background-color: var(--primary-color);
     margin: 0;
 }
 
 header a {
     text-decoration: none;
-    color: #585858;
+    color: var(--secondary-color);
 }
 
 header nav {
@@ -43,7 +48,7 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
-    color: paleturquoise;
+    color: var(--primary-color);
 }
 
 /* Hero/Jumbotron */
@@ -64,8 +69,8 @@ header nav ul li a {
 
 .hero-cta h2 {
     font-size: 25px;
-    color: #585858;
-    background-color: paleturquoise;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -77,8 +82,9 @@ header nav ul li a {
 
 .section-title h1 {
     font-weight: bold;
-    font-size 36px;
-    color:#585858;
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--secondary-color);
     text-align: right;
     flex: 1;
     margin-right: 20px;
@@ -86,8 +92,25 @@ header nav ul li a {
 
 .section-title p {
     text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--secondary-color)
 }
 
 /* Work Section */
 
+.work-boxes {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--secondary-color);
+}
+
 /* Contact Me Section */
+
+.contact-links a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--secondary-color);
+}
