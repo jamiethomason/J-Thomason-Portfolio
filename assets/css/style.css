@@ -37,7 +37,7 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-  }
+}
 
 header nav ul li a {
     margin: 0 30px;
@@ -70,6 +70,23 @@ header nav ul li a {
 }
 
 /* About Me Section */
+
+.section-title {
+    display: flex;
+}
+
+.section-title h1 {
+    font-weight: bold;
+    font-size 36px;
+    color:#585858;
+    text-align: right;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.section-title p {
+    text-align: left;
+}
 
 /* Work Section */
 
