@@ -72,6 +72,10 @@ header nav ul li a {
 
 /* About Me Section and Spacing CSS */
 
+#about-me {
+    margin-top: 5px;
+}
+
 .columns {
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -93,13 +97,21 @@ header nav ul li a {
 .column img {
     width: 100px;
     height: 100px;
+    float: left;
+    margin: 5px;
+    padding: 0;
 }
 
 .column p, .column h3, .column a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--secondary-color);
-    width: 100%;
-    margin: 0 auto;
+    width: 70%;
+    margin-top: 5px;
+    position: relative;
+    margin-right: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
 }
 
 /* Work Section */
