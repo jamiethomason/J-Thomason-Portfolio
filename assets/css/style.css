@@ -141,7 +141,7 @@ header nav ul li a {
 }
 
 .small-container1 {
-    background-image: url("../images/Stream\ Connect.png");
+    background-image: url("../images/StreamConn.png");
     background-size: cover;
     background-position: center;
     border: var(--primary-color) solid 2px;
