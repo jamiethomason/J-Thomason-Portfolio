@@ -141,11 +141,11 @@ header nav ul li a {
 }
 
 .small-container1 {
-    background-image: url("../images/download-1.jpg");
+    background-image: url("../images/Stream\ Connect.png");
     background-size: cover;
     background-position: center;
     border: var(--primary-color) solid 2px;
-    margin-left: 10px;
+    margin-left: 9px;
     width: 70%;
     height: 100px;
 }
