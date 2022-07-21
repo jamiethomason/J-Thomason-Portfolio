@@ -145,7 +145,7 @@ header nav ul li a {
     background-size: cover;
     background-position: center;
     border: var(--primary-color) solid 2px;
-    margin-left: 9px;
+    margin-left: 10px;
     width: 70%;
     height: 100px;
 }
