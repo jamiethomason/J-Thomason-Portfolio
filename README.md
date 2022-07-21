@@ -9,3 +9,5 @@
 
 ## Website Preview
 Below is an image of the website's appearance:
+
+![Screenshot of Jamie Thomason's portfolio site](assets/images/portfoliositescreenshot.jpeg)
